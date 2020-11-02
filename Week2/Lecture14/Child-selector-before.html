@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Week 2</title>
+	<style>
+
+		/*elk ARTICLE elemnt dat directe child is van een SECTION element, m.a.w. elk ARTICLE element waarvan zijn rechstreekse parent een SECTION element is */
+		section > article
+		{
+			color: green;
+			font-size: 24px;
+		}
+
+		/*elk h2 elemnt dat directe child is van een SECTION element, m.a.w. elk h2 element waarvan zijn rechstreekse parent een SECTION element is*/
+		section > h2
+		{
+			color: green;
+		}
+
+	</style>
+</head>
+<body>
+ Week 2 : Child selectors,  Lecture 14
+		<h1>Child selector</h1>
+		<section>
+			<h2>Subheading 1</h2>
+			<div>
+				<article> Article inside DIV wich is inside SECTION.</article>
+			</div>	
+		</section>
+		<section>
+			<article>Article as direct child of the SECTION element.</article>
+		</section>
+		<h3>Subheading 2</h3>
+
+</body>
+</html>
